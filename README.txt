@@ -1,3 +1,7 @@
+References
+- https://templateflip.com/templates/creative-cv/#download
+- https://templateflip.com/templates/creative-cv/#download
+
 Directory Structure
 -------------------
 css\              - Stylesheets CSS files for the template.
