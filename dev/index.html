@@ -65,9 +65,6 @@
       <!-- Page Content -->
       <div class="page-content">
 
-        <div>
-
-
           <div class="profile-page">
             <div class="wrapper">
               <div class="page-header page-header-small" filter-color="green">
@@ -115,7 +112,6 @@
               </div>
             </div>
           </div>
-
 
           <div class="section" id="about">
             <div class="container">
@@ -340,7 +336,6 @@
             </div>
           </div>
 
-
           <div class="section" id="portfolio">
             <div class="container">
 
@@ -535,7 +530,6 @@
             </div>
           </div>
 
-
           <div class="section" id="experience">
             <div class="container cc-experience">
               <div class="h4 text-center mb-4 title">Work Experience</div>
@@ -616,7 +610,6 @@
               </div>
             </div>
           </div>
-
 
           <div class="section" id="education">
             <div class="container cc-education">
@@ -702,9 +695,6 @@
             </div>
           </div>
 
-
-        </div>
-
       </div>
 
       <!-- Footer -->
@@ -725,12 +715,16 @@
     <script src="js/aos.js?ver=1.1.0"></script>
     <script src="scripts/main.js?ver=1.1.0"></script>
 
+    <!--  Dependencies  -->
     <script src="./js/core/vue.global.js"></script>
-
     <script src="./js/axios.min.js"></script>
 
+    <!-- Vue App -->
     <script>
       Vue.createApp({
+
+        //#region ## Data, Methods, so on.. ##
+
         data() {
           return {
             message: 'Hello Vue!',
@@ -738,8 +732,10 @@
           }
         },
 
+        //#endregion
 
-        //#region ## Life Cycle
+        //#region ## Life Cycle ##
+
         beforeCreate(){
 
         },
@@ -754,6 +750,7 @@
         },
 
         //#endregion
+
       }).mount('#top')
     </script>
 
