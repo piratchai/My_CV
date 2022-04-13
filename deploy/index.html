@@ -727,6 +727,7 @@
 
     <script src="./js/core/vue.global.js"></script>
 
+    <script src="./js/axios.min.js"></script>
 
     <script>
       Vue.createApp({
@@ -734,7 +735,12 @@
           return {
             message: 'Hello Vue!'
           }
-        }
+        },
+
+
+        //#region ## Life Cycle
+        
+        //#endregion
       }).mount('#top')
     </script>
 
